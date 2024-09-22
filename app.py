@@ -4,7 +4,7 @@ import google.generativeai as genai
 import os
 import random
 # Set up environment variable for the API key
-API_KEY = "AIzaSyDXx2DPsYCfvbfDJyQqaUOnPHVh3YJ_yNI"  # Make sure to set this in your environment
+API_KEY = "YOUR_API_KEY"  # Make sure to set this in your environment
 genai.configure(api_key=API_KEY)
 # Initialize FastAPI app
 app = FastAPI()
