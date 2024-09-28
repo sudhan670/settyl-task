@@ -65,7 +65,7 @@ negotiation_chatbot/
 2. Set your API key in the environment variable.
 3. Run the application:
    ```bash
-   python main.py
+   $ uvicorn app:app
    ```
 4. Access the API:
    - Start a negotiation: `GET http://localhost:8000/start-negotiation`
